@@ -1,0 +1,11 @@
+# Ignore sensitive files
+.env
+
+# Ignore dependency directories
+vendor/
+node_modules/
+web/wp/
+
+# Ignore log files and temporary files
+*.log
+tmp/
