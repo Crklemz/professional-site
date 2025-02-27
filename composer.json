@@ -2,13 +2,23 @@
   "name": "crklemz/professional-site",
   "description": "A WordPress Bedrock site",
   "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
   "require": {
     "php": "^7.4 || ^8.0",
     "composer/installers": "^1.11",
     "oscarotero/env": "^2.1.1",
     "vlucas/phpdotenv": "^5.5",
     "roots/wordpress": "^6.7.2",
-    "roots/bedrock-autoloader": "^1.0"
+    "roots/bedrock-autoloader": "^1.0",
+    "wpackagist-plugin/wordpress-seo": "^24.5",
+    "wpackagist-plugin/wordfence": "^8.0",
+    "wpackagist-plugin/wpforms-lite": "^1.9",
+    "wpackagist-plugin/contact-form-7": "^6.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.6",
